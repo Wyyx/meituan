@@ -1,0 +1,300 @@
+.header {
+	height: 140px;
+	padding-top: 20px;
+}
+
+.top-bar {
+	position: relative;
+}
+
+.back-wrapper {
+	width: 50px;
+	height: 31px;
+	line-height: 31px;
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: white;
+}
+
+.search-wrapper {
+	width: 100%;
+	height: 31px;
+	padding: 0 104px 0 50px;
+	box-sizing: border-box;
+}
+
+.search-input {
+	width: 100%;
+	height: 31px;
+	border: none;
+	box-sizing: border-box;
+	background: #cdcdcc;
+	border-radius: 25px;
+	padding-left: 27px;
+	outline: none;
+}
+
+.search-icon {
+	width: 31px;
+	height: 31px;
+	background-image: url('./titans_h5_search@2x.png');
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+	position: absolute;
+	top: 9px;
+	margin-left: 9px;
+}
+
+.right-wrapper {
+	width: 104px;
+	height: 31px;
+	line-height: 24px;
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 4px 15px 7px 24px;
+	box-sizing: border-box;
+}
+
+.right-wrapper .sharing-bill-btn {
+	text-decoration: none;
+	font-size: 10px;
+	color: white;
+	padding-left: 3px;
+	padding-right: 3px;
+	border: 1px solid white;
+}
+
+.right-wrapper .more-btn {
+	margin-left: 10px;
+	position: relative;
+	top: -2px;
+}
+
+.right-wrapper .more-btn .circle {
+	width: 3px;
+	height: 3px;
+	border-radius: 50%;
+	color: white;
+	border: 1px solid white;
+	display: inline-block;
+	margin-left: -3px;
+}
+
+.bg-wrapper {
+	position: absolute;
+	width: 100%;
+	height: 160px;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+	background-size: cover;
+	background-position: center 0px;
+}
+
+.content-wrapper {
+	padding: 17px 10px 10px 17px;
+	height: 50px;
+}
+.content-wrapper .shop-logo {
+	width: 50px;
+	height: 50px;
+	background-size: cover;
+	background-position: center 0px;
+	float: left;
+}
+
+.content-wrapper .shop-name {
+	float: left;
+	color: white;
+	padding-left: 8px;
+	padding-top: 15px;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 0.1rem;
+}
+
+.favorite-wrapper {
+	padding-top: 5px;
+	float: right;
+	text-align: center;
+}
+
+.favorite-icon {
+	width: 20px;
+	height: 20px;
+}
+
+.favorite-text {
+	color: white;
+	display: block;
+	font-size: 10px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.bulletin-wrapper {
+	padding: 0px 10px;
+	position: absolute;
+	height: 16px;
+	color: white;
+	margin-top: 5px;
+}
+
+.bulletin-wrapper .bulletin {
+	float: left;
+	height: 16px;
+}
+
+.bulletin-wrapper .bulletin-icon {
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+
+.bulletin-wrapper .bulletin-text {
+	font-size: 11px;
+	line-height: 16x;
+	vertical-align: middle;
+}
+
+.bulletin-wrapper .discount {
+	padding-left: 18px;
+	font-size: 11px;
+	line-height: 16px;
+	color: white;
+	float: right;
+	position: absolute;
+	right: -60px;
+	top: 2px;
+}
+
+.bulletin-detail-wrapper {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+	z-index: 99;
+	padding: 42px 20px 150px 20px;
+	box-sizing: border-box;
+}
+
+.bulletin-detail {
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	background-size: cover;
+	padding: 40px 20px 20px 20px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.bulletin-close {
+	position: relative;
+	height: 100px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.bulletin-close .circle {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	left: 50%;
+	margin-left: -20px;
+	border: 1px solid rgb(238, 238, 238);
+}
+
+.bulletin-close .icon-close {
+	top: 0px;
+	position: absolute;
+	margin-left: -6px;
+	margin-top: 33px;
+	color: rgb(238, 238, 238);
+}
+
+.bulletin-detail-wrapper .bulletin-detail .bulletin-detail-logo {
+	width: 60px;
+	height: 60px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 3px;
+	display: inline-block;
+}
+
+.bulletin-detail-wrapper .bulletin-detail .bulletin-detail-name {
+	color: white;
+	padding-top: 13px;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 0.1rem;
+}
+
+.bulletin-detail-wrapper .bulletin-detail-rating {
+	color: white;
+	font-size: 10px;
+	margin-top: 6px;
+}
+
+.bulletin-detail-wrapper .bulletin-detail-rating .stars {
+	display: inline-block;
+}
+
+.bulletin-detail-wrapper .bulletin-detail-tips {
+	color: #bababc;
+	font-size: 11px;
+	margin-top: 8px;
+}
+
+.bulletin-detail-wrapper .bulletin-detail-time {
+	color: #bababc;
+	font-size: 9px;
+	margin-top: 13px;
+}
+
+.bulletin-detail-wrapper .divider {
+	height: 1px;
+	width: 100%;
+	background: #a3a3a3;
+	margin-top: 21px;
+}
+
+.bulletin-detail-wrapper .activity-info {
+	padding-top: 20px;
+}
+
+.bulletin-detail-wrapper .bulletin-icon {
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+
+.bulletin-detail-wrapper .bulletin-text {
+	font-size: 11px;
+	line-height: 16x;
+	vertical-align: middle;
+	color: white;
+}
+
+.fade-enter {
+	opacity: 0;
+}
+
+.fade-enter-to {
+	opacity: 1;
+}
+
+.fade-leave-to {
+	opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+	transition: opacity 0.3s;
+}
